@@ -6,4 +6,4 @@ from django.shortcuts import render
 
 
 def hello_world(request):
-    return HttpResponse('Hello world! 장고미웡')
+    return render(request, 'base.html')
