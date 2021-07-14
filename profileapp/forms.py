@@ -5,5 +5,5 @@ from profileapp.models import Profile
 
 class ProfileCreationForm(ModelForm):
     class Meta:
-        models = Profile
+        model = Profile
         fields = ['image', 'nickname', 'message']
